@@ -5,6 +5,8 @@
 //  Created by Christian Vila on 1/9/18.
 //  Copyright © 2018 NAPPSEntertaiment. All rights reserved.
 //
+// The passModel is a constant of type PasswordModel() which is a class that stores the username and password in one
+//place and is called whenever its needs to be accessed.
 
 import UIKit
 
