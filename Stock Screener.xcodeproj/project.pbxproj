@@ -12,6 +12,11 @@
 		0DA359A22002071D00B561D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA359A02002071D00B561D0 /* Main.storyboard */; };
 		0DA359A42002071D00B561D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA359A32002071D00B561D0 /* Assets.xcassets */; };
 		0DA359A72002071D00B561D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA359A52002071D00B561D0 /* LaunchScreen.storyboard */; };
+		0DA359B5200219DC00B561D0 /* TickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA359B4200219DC00B561D0 /* TickerTableViewCell.swift */; };
+		0DBB94352052E00300EF39C0 /* PasswordAndKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBB94342052E00300EF39C0 /* PasswordAndKeys.swift */; };
+		0DEA596720048A740072DBEB /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEA596620048A740072DBEB /* StockViewController.swift */; };
+		0DEA59692004994E0072DBEB /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEA59682004994E0072DBEB /* TestTableViewController.swift */; };
+		0DEA596B20049BF30072DBEB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEA596A20049BF30072DBEB /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		0DA359A32002071D00B561D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA359A62002071D00B561D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA359A82002071D00B561D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA359B4200219DC00B561D0 /* TickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerTableViewCell.swift; sourceTree = "<group>"; };
+		0DBB94342052E00300EF39C0 /* PasswordAndKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordAndKeys.swift; sourceTree = "<group>"; };
+		0DEA596620048A740072DBEB /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		0DEA59682004994E0072DBEB /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		0DEA596A20049BF30072DBEB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		0DA3599B2002071D00B561D0 /* Stock Screener */ = {
 			isa = PBXGroup;
 			children = (
-				0DA3599C2002071D00B561D0 /* AppDelegate.swift */,
+				0DBB94342052E00300EF39C0 /* PasswordAndKeys.swift */,
+				0DEA596A20049BF30072DBEB /* Model.swift */,
 				0DA3599E2002071D00B561D0 /* ViewController.swift */,
+				0DEA596620048A740072DBEB /* StockViewController.swift */,
+				0DA359B4200219DC00B561D0 /* TickerTableViewCell.swift */,
+				0DA3599C2002071D00B561D0 /* AppDelegate.swift */,
 				0DA359A02002071D00B561D0 /* Main.storyboard */,
 				0DA359A32002071D00B561D0 /* Assets.xcassets */,
 				0DA359A52002071D00B561D0 /* LaunchScreen.storyboard */,
 				0DA359A82002071D00B561D0 /* Info.plist */,
+				0DEA59682004994E0072DBEB /* TestTableViewController.swift */,
 			);
 			path = "Stock Screener";
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEA596720048A740072DBEB /* StockViewController.swift in Sources */,
+				0DA359B5200219DC00B561D0 /* TickerTableViewCell.swift in Sources */,
 				0DA3599F2002071D00B561D0 /* ViewController.swift in Sources */,
+				0DEA59692004994E0072DBEB /* TestTableViewController.swift in Sources */,
 				0DA3599D2002071D00B561D0 /* AppDelegate.swift in Sources */,
+				0DBB94352052E00300EF39C0 /* PasswordAndKeys.swift in Sources */,
+				0DEA596B20049BF30072DBEB /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
