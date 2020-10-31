@@ -49,8 +49,8 @@ class Model {
             //let day = loadCurrentDay()
             //let date = loadCurrentDate(day: day)
             var request = URLRequest.init(url: url)
-            let userName = "8bd6dd1d5de7fbdb42feb57ff96607c8"
-            let password = "b29c9334b373e127cb4bc6b24a3787df"
+            let userName = ""
+            let password = ""
             let toEncode = "\(userName):\(password)" //forms the string to be encoded
             let encoded = toEncode.data(using: .utf8)?.base64EncodedString()
             request.addValue("Basic \(encoded!)", forHTTPHeaderField: "Authorization")
